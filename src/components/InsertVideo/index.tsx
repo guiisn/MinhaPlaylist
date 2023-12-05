@@ -49,7 +49,8 @@ const InsertVideo: React.FC = () => {
         <Space h="lg" />
         <TextInput
           type="text"
-          placeholder="URL do vídeo"
+          placeholder="URL de incorporação do vídeo"
+          description='Para obter a URL de incorporação você deve selecionar o vídeo, buscar a opção "Compartilhar", clicar na opção "Incorporar" e selecionar o conteúdo dentro do atributo "src="'
           onChange={(e) => setVideo({ ...video, link: e.target.value })}
         />
 
